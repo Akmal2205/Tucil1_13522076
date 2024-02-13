@@ -106,7 +106,7 @@ else:
             temp=[]
             lst = list(token_mat)
             path_finder(token_mat, 0, i, seq, temp, 0, buffer_size, False, [])
-            final_path+=temp
+            final_path+=[temp]
     
     print(final_path)
     #print(bobot_path(final_path, bobot, token_inp, token_mat))
